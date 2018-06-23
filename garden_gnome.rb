@@ -1,6 +1,6 @@
 # Code your instances here
 class GardenGnome
-  attr_accessor :name, :ages
+  attr_accessor :name, :age
 
   def name=(name)
     @name = name
@@ -10,4 +10,11 @@ class GardenGnome
     @name
   end
 
+  def age=(age)
+    @age = age
+  end
+
+  def age
+    @age
+  end
   
