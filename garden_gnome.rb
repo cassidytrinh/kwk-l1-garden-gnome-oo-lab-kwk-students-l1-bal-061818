@@ -43,7 +43,7 @@ class GardenGnome
     @hat_color
   end
 
-  def gnaw 
+  def gnaw
     return "Gnawing on a tree!!!"
   end
 
@@ -52,4 +52,4 @@ class GardenGnome
   end
 
   def introduce_self
-    return "Hello humans, my name is ______, I am __ years old, and you'll rue the day you crossed me!"
+    return "Hello humans, my name is #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
